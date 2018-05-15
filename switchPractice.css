@@ -1,0 +1,87 @@
+body {
+background-color: #F2F2F2;
+}
+
+input[type="radio"]{
+  margin: 0 50px 0 50px;
+}
+
+input[type="checkbox"]{
+  margin: 0 50px 0 50px
+}
+
+.switch-group {
+  text-align: center;
+  margin: auto;
+  width: 500px;
+  font-size: 20px;
+}
+
+.switch-button {
+  display: inline-block;
+}
+
+h1 {
+  text-align: center;
+  background-color: yellow;
+  margin: auto;
+}
+
+.submit {
+  text-align: center;
+}
+
+#button {
+  border: 5px solid green;
+  background-color: green;
+  width: 25%;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  font-style: white;
+  margin: left;
+}
+
+fieldset {
+  width: 50%;
+}
+
+img {
+  float: none;
+  border: 6px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  margin: auto;
+  height: 450px;
+  width: 100%;
+}
+
+textarea {
+  width: 51%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  width: 55%;
+  background-color: #FFFFFF;
+}
+
+.order-card {
+  float: right;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  width: 36%;
+  height: auto;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 3fr);
+  grid-auto-rows: 55%;
+}
